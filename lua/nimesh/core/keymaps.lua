@@ -28,3 +28,7 @@ keymap.set("n", "<leader>tp", ":tabp<CR>")  --goto previous
 
 
 keymap.set("n", "<leader>sm", ":MaximizerToggle<CR>")
+
+
+-- nvim-tree
+keymap.set("n", "<leader>b", ":NvimTreeToggle<CR>")

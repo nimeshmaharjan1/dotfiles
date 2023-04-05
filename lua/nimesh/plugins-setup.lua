@@ -46,6 +46,7 @@ use("nvim-lua/plenary.nvim")
       requires = { 'kyazdani42/nvim-web-devicons' }
     }
 
+use("nvim-lualine/lualine.nvim")
 
   if packer_bootstrap then
     require("packer").sync()
