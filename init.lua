@@ -1,0 +1,6 @@
+require("nimesh.plugins-setup")
+require("nimesh.core.options")
+require("nimesh.core.keymaps")
+require("nimesh.core.colorscheme")
+require("nimesh.plugins.comment")
+require("nimesh.plugins.nvim-tree")
