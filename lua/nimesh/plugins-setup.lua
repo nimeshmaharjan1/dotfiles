@@ -48,6 +48,10 @@ use("nvim-lua/plenary.nvim")
 
 use("nvim-lualine/lualine.nvim")
 
+use({ "nvim-telescope/telescope.nvim", branch = "0.1.x" })
+use {'nvim-telescope/telescope-fzf-native.nvim', run = 'make' }
+
+
   if packer_bootstrap then
     require("packer").sync()
   end
