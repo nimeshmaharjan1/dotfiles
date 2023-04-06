@@ -98,6 +98,30 @@ return packer.startup(function(use)
 	-- git integration
 	use("lewis6991/gitsigns.nvim") -- show line modifications on left hand side
 
+	use("MunifTanjim/prettier.nvim")
+
+	use("nordtheme/vim")
+	use("romainl/flattened")
+	use("Shatur/neovim-ayu")
+
+	use("akinsho/toggleterm.nvim")
+
+	use("folke/tokyonight.nvim")
+
+	-- use({
+	-- 	"utilyre/barbecue.nvim",
+	-- 	tag = "*",
+	-- 	requires = {
+	-- 		"SmiteshP/nvim-navic",
+	-- 		"nvim-tree/nvim-web-devicons", -- optional dependency
+	-- 	},
+	-- 	after = "nvim-web-devicons", -- keep this if you're using NvChad
+	-- 	config = function()
+	-- 		require("barbecue").setup()
+	-- 	end,
+	-- })
+	use({ "romgrk/barbar.nvim", requires = "nvim-web-devicons" })
+
 	if packer_bootstrap then
 		require("packer").sync()
 	end
