@@ -29,6 +29,7 @@ keymap.set("n", "<leader>sm", ":MaximizerToggle<CR>")
 
 -- nvim-tree
 keymap.set("n", "<leader>b", ":NvimTreeToggle<CR>")
+keymap.set("n", "<leader>bn", ":NvimTreeFindFile<CR>")
 
 -- telescope
 keymap.set("n", "<leader>p", "<cmd>Telescope find_files hidden=true<cr>") -- find files within current working directory, respects .gitignore
@@ -46,5 +47,5 @@ keymap.set("n", "<leader>gs", "<cmd>Telescope git_status<cr>") -- list current c
 -- restart lsp server (not on youtube nvim video)
 keymap.set("n", "<leader>rs", ":LspRestart<CR>") -- mapping to restart lsp if necessary
 
-keymap.set("n", "<c-,>", "<Cmd>BufferPrevious<CR>")
-keymap.set("n", "<A-.>", "<Cmd>BufferNext<CR>")
+keymap.set("n", "<c-[>", "<Cmd>BufferPrevious<CR>")
+keymap.set("n", "<c-]>", "<Cmd>BufferNext<CR>")
